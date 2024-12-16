@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Allgemeine Schriftart und Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Formulareingabefelder */
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    background-color: #34495e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c3e50;
+}
+
+/* Hauptlayout */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sicherstellen, dass der Inhalt die verbleibende Höhe ausfüllt */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Footer-Stil */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #34495e;
+    color: white;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+    margin-top: auto;  /* Stelle sicher, dass der Footer unten bleibt */
+}
+
+/* Willkommen Container */
+.welcome-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.welcome-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome-container p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+/* Menü */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.menu-container div {
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+
+.menu-container div a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Formulareingabe */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #34495e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2c3e50;
+}
+
+/* Stil für das Willkommen-Menü */
+.welcome-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.welcome-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome-container p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+/* Menükarten */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.menu-container div {
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+
+.menu-container div a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Allgemeine Formulargestaltung */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #34495e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2c3e50;
+}
+
+/* Styling für den Container */
+.create-job-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.create-job-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
